@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+📚 Software de Ensino de Português Inclusivo
+(Se você tiver uma imagem ou logo para o projeto, coloque o link aqui para enriquecer visualmente o README.)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Visão Geral do Projeto
+Este projeto é um software educacional inovador focado no ensino da Língua Portuguesa, desenvolvido com um compromisso profundo com a acessibilidade e inclusão. Nossa missão é fornecer uma ferramenta multimodal que integra audiolivros e textos interativos, facilitando o aprendizado para estudantes com diversas necessidades, especialmente aqueles com deficiência visual, auditiva e dislexia.
 
-## Available Scripts
+O software foi concebido em parceria com a Escola Nova Esperança, uma instituição filantrópica dedicada a um ensino inclusivo, buscando superar os desafios de engajamento e compreensão de conteúdo que muitos alunos enfrentam, tanto em aulas presenciais quanto remotas.
 
-In the project directory, you can run:
+✨ Motivação
+A inspiração para este software surgiu da necessidade premente de atender à diversidade de estudantes da Escola Nova Esperança. Observamos lacunas significativas no acesso e na adaptação de materiais educacionais, especialmente durante o ensino a distância. Este projeto visa preencher essas lacunas, oferecendo um sistema verdadeiramente acessível e multimodal que promova a inclusão plena no processo de aprendizagem da Língua Portuguesa.
 
-### `npm start`
+🎯 Objetivos
+Desenvolver um software educacional acessível e inclusivo para o ensino da Língua Portuguesa.
+Integrar audiolivros e textos interativos para promover o aprendizado multimodal.
+Atender estudantes na faixa etária de 11 a 18 anos, incluindo aqueles com deficiência visual, auditiva e dislexia.
+Garantir a usabilidade em ambientes com baixa conectividade.
+📦 Funcionalidades Principais
+Nosso software oferece um conjunto robusto de funcionalidades para garantir uma experiência de aprendizado rica e acessível:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Interface Amigável e Intuitiva: Design pensado para facilitar a navegação e o uso por todos os estudantes.
+Login para Aluno e Professor: Permite o gerenciamento de acesso e a personalização da experiência.
+Módulo de Audiolivros com Texto Sincronizado: Conteúdo textual acompanhado de narração, com sincronização para facilitar a leitura e compreensão.
+Atividades de Múltipla Escolha e Interpretação Textual: Exercícios interativos para fixação do conteúdo.
+Sistema de Feedback e Relatórios de Desempenho: Acompanhamento do progresso do aluno para professores e responsáveis.
+Recursos de Acessibilidade Avançados:
+Leitor de tela (suporte nativo do SO)
+Modo de alto contraste
+Fontes ampliadas
+Teclado virtual
+Legendas e transcrição de áudio (para deficiência auditiva)
+Interface simplificada, feedback visual e narração de instruções (para deficiência intelectual)
+Botões grandes e navegação por teclado (para deficiência motora leve)
+💻 Tecnologias Utilizadas
+O projeto foi desenvolvido com as seguintes tecnologias e arquitetura:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Arquitetura: Cliente-Servidor com interface local (desktop).
+Banco de Dados: SQLite (para implantação local) / SQL Server (para desenvolvimento/testes).
+Interface Gráfica: HTML e CSS, renderizadas via WebView (utilizando Electron ou Java FX WebView).
+Linguagens de Programação: HTML, CSS, Java (ou Python/JavaScript, dependendo da escolha final do framework WebView) e React.
+Sistema Operacional Alvo: Windows e Web Mobile (futuramente).
+🛠️ Módulos do Sistema
+O software é modularizado para facilitar o desenvolvimento e a manutenção:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Módulo de Login: Gerencia o acesso de alunos e professores.
+Módulo de Audiolivros e Textos: Responsável pela exibição e gerenciamento de conteúdos textuais e suas narrações.
+Módulo de Atividades e Avaliações: Permite a criação, execução e correção de atividades interativas.
+Módulo de Acompanhamento de Desempenho: Gera relatórios e visualiza o progresso dos usuários.
+Módulo de Acessibilidade: Contém as configurações e ferramentas para garantir a usabilidade por usuários com diferentes necessidades.
