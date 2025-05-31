@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Thiagoatl/Ta-Certo-Isso-/static/css/main.e368c29f.css",
-    "main.js": "/Thiagoatl/Ta-Certo-Isso-/static/js/main.f2612fc3.js",
-    "static/js/488.bc49f449.chunk.js": "/Thiagoatl/Ta-Certo-Isso-/static/js/488.bc49f449.chunk.js",
-    "index.html": "/Thiagoatl/Ta-Certo-Isso-/index.html",
-    "main.e368c29f.css.map": "/Thiagoatl/Ta-Certo-Isso-/static/css/main.e368c29f.css.map",
-    "main.f2612fc3.js.map": "/Thiagoatl/Ta-Certo-Isso-/static/js/main.f2612fc3.js.map",
-    "488.bc49f449.chunk.js.map": "/Thiagoatl/Ta-Certo-Isso-/static/js/488.bc49f449.chunk.js.map"
+    "main.css": "/Ta-Certo-Isso-/static/css/main.e368c29f.css",
+    "main.js": "/Ta-Certo-Isso-/static/js/main.2245f059.js",
+    "static/js/488.bc49f449.chunk.js": "/Ta-Certo-Isso-/static/js/488.bc49f449.chunk.js",
+    "index.html": "/Ta-Certo-Isso-/index.html",
+    "main.e368c29f.css.map": "/Ta-Certo-Isso-/static/css/main.e368c29f.css.map",
+    "main.2245f059.js.map": "/Ta-Certo-Isso-/static/js/main.2245f059.js.map",
+    "488.bc49f449.chunk.js.map": "/Ta-Certo-Isso-/static/js/488.bc49f449.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e368c29f.css",
-    "static/js/main.f2612fc3.js"
+    "static/js/main.2245f059.js"
   ]
 }
