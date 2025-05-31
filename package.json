@@ -2,7 +2,7 @@
   "name": "ta-certo-isso-",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Thiagoatl/Ta-Certo-Isso-",
+  "homepage": "https://thiagoatl.github.io/Ta-Certo-Isso-/",
   "dependencies": {
     "@google/generative-ai": "^0.14.1",
     "lucide-react": "^0.380.0",
