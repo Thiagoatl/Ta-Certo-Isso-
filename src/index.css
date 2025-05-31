@@ -1,0 +1,31 @@
+/* Diretivas do Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais ou de acessibilidade */
+.high-contrast {
+  background-color: #000 !important;
+  color: #0F0 !important; /* Verde neon para alto contraste */
+}
+.high-contrast input,
+.high-contrast textarea,
+.high-contrast select {
+  background-color: #333 !important;
+  color: #0F0 !important;
+  border-color: #0F0 !important;
+}
+.high-contrast button {
+  background-color: #0F0 !important;
+  color: #000 !important;
+  border-color: #0F0 !important;
+}
+.high-contrast .border,
+.high-contrast .divide-y {
+  border-color: #0F0 !important;
+}
+
+/* Opcional: Fonte Inter (se desejar, você pode importar de Google Fonts) */
+body {
+  font-family: 'Inter', sans-serif;
+}
